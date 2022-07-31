@@ -8,10 +8,11 @@ export default function About() {
      <h1>About Us</h1>
      </div>
      </div>
-
+    <div className="container">
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam hic esse et necessitatibus quas officia velit temporibus. Labore corporis repellendus sed itaque temporibus odio fugiat, magni ex ipsa voluptate!
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat neque deleniti ut? Omnis, at, dolor est accusantium eum neque quam ab fugit suscipit atque, quibusdam sed asperiores! Dolores, consequatur.
      </p>
+     </div>
     </div>
   )
 }
