@@ -1,11 +1,8 @@
+// Niralawebsolution.com / Website design & Development service Noida India
 import React from 'react'
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-
 export default function Home() {
   return (
-  
+    <React.Fragment>
     <div>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div className="carousel-indicators">
@@ -45,37 +42,7 @@ export default function Home() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-{/* section 2 */}
-<div className="container p-5">
-  <h2 className='text-center mb-5'>Our Services</h2>
-<div class="card-group ">
-  <div class="card mx-4">
-    <img src="./../img/3.jpg" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Service 1</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
-  </div>
-  <div class="card mx-4">
-    <img src="./../img/2.jpg" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Service 2</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-  </div>
-  <div class="card mx-4">
-    <img src="./../img/1.jpg" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Service 3</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-  </div>
-</div>
-</div>
-    </div>
-    
-    
-
-    
+    </React.Fragment>
   )
 }
